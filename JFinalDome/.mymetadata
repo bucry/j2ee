@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="JFinalDome"
+  id="myeclipse.1423112013882"
+  context-root="/jfinal_dome"
+  j2ee-spec="6.0"
+  archive="JFinalDome.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
