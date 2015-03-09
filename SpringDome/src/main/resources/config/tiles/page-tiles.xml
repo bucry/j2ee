@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+    "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="intranet-template"
+		template="/WEB-INF/common/template/transaction_template.jsp">
+		<put-attribute name="title" value="None" />
+		<put-attribute name="screen-id" value="None" />
+		<put-attribute name="constant-content"
+			value="/WEB-INF/common/template/constant_content.jsp" />
+		<put-attribute name="constant-i18n"
+			value="/WEB-INF/common/template/constant_i18n.jsp" />
+		<put-attribute name="constant-header"
+			value="/WEB-INF/common/template/constant_header.jsp" />
+		<put-attribute name="constant-menu"
+			value="/WEB-INF/common/template/constant_menu.jsp" />
+		<put-attribute name="main-content1"
+			value="/WEB-INF/common/template/constant_empty.jsp" />
+		<put-attribute name="main-content2"
+			value="/WEB-INF/common/template/constant_empty.jsp" />
+		<put-attribute name="main-content3"
+			value="/WEB-INF/common/template/constant_empty.jsp" />
+		<put-attribute name="main-content4"
+			value="/WEB-INF/common/template/constant_empty.jsp" />
+		<put-attribute name="main-content5"
+			value="/WEB-INF/common/template/constant_empty.jsp" />
+		<put-attribute name="main-content6"
+			value="/WEB-INF/common/template/constant_empty.jsp" />
+		<put-attribute name="main-content7"
+			value="/WEB-INF/common/template/constant_empty.jsp" />
+		<put-attribute name="constant-footer"
+			value="/WEB-INF/common/template/constant_footer.jsp" />
+	</definition>
+
+	<definition name="test" extends="intranet-template">
+        <put-attribute name="main-content1" value="/WEB-INF/index.jsp" />
+        <put-attribute name="title" value="image_step" />
+    </definition>
+</tiles-definitions>

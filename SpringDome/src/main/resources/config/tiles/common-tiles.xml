@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+    "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+    
+    <definition name="cookie-error" template="/WEB-INF/common/error/cookie-error.jsp"></definition>
+
+    <definition name="default-403" extends="intranet-template">
+        <put-attribute name="main-content1" value="/WEB-INF/common/error/default-403.jsp" />
+        <put-attribute name="title" value="Forbidden" />
+    </definition>
+
+    <definition name="default-404" template="/WEB-INF/common/error/default-404.jsp"></definition>
+
+    <definition name="default-error" extends="intranet-template">
+        <put-attribute name="main-content1" value="/WEB-INF/common/error/default-500.jsp" />
+        <put-attribute name="title" value="Server Error" />
+    </definition>
+    
+</tiles-definitions>
