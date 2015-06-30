@@ -1,4 +1,8 @@
-j2ee
-====
+JFinalDome
+	JFinal框架Demo
 
-javaee编程案例
+Proxy
+	关于JAVA代理的实现，JAVA代理分为三类：动态，静态和CGLIB
+
+SpringDome
+	Spring无XML纯配置实现
