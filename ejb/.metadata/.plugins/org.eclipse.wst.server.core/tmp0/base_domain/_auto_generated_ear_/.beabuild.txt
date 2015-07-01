@@ -1,0 +1,3 @@
+/home/oracle12c/weblogic12c/ejb/OracleWeb/WebContent = OracleWeb.war
+/home/oracle12c/weblogic12c/ejb/OracleWeb/build/weboutput = OracleWeb.war
+/home/oracle12c/weblogic12c/ejb/OracleWeb/build/classes = OracleWeb.war/WEB-INF/classes

@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+/home/oracle12c/weblogic12c/ejb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/901289925.index
+/Dome/src
+/home/oracle12c/weblogic12c/ejb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3606384457.index
+/DomeEjb/src

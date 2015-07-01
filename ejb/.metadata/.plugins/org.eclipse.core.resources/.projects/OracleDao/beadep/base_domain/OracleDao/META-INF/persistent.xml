@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence version="1.0"
+	xmlns:persistence="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence persistence_1_0.xsd ">
+
+	<!-- Name属性用于定义持久化单元的名字 (name必选,空值也合法); transaction-type 指定事务类型(可选) -->
+	<persistence-unit name="unitName" transaction-type="JTA">
+
+		<!-- 描述信息.(可选) -->
+		<description>
+		</description>
+
+		<!-- javax.persistence.PersistenceProvider接口的一个实现类(可选) -->
+		<provider>
+		</provider>
+
+		<!-- Jta-data-source和 non-jta-data-source用于分别指定持久化提供商使用的JTA和/或non-JTA数据源的全局JNDI名称(可选) -->
+		<jta-data-source>java:/MySqlDS</jta-data-source>
+		<non-jta-data-source>
+		</non-jta-data-source>
+
+		<!-- 声明orm.xml所在位置.(可选) -->
+		<mapping-file>product.xml</mapping-file>
+
+		<!-- 以包含persistence.xml的jar文件为基准的相对路径,添加额外的jar文件.(可选) -->
+		<jar-file>../lib/model.jar</jar-file>
+
+		<!-- 显式列出实体类,在Java SE 环境中应该显式列出.(可选) -->
+		<class>com.domain.User</class>
+		<class>com.domain.Product</class>
+
+		<!-- 声明是否扫描jar文件中标注了@Enity类加入到上下文.若不扫描,则如下:(可选) -->
+		<exclude-unlisted-classes />
+
+		<!-- 厂商专有属性(可选) -->
+		<properties>
+			<!-- hibernate.hbm2ddl.auto= create-drop / create / update -->
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="true" />
+		</properties>
+
+	</persistence-unit>
+
+</persistence>

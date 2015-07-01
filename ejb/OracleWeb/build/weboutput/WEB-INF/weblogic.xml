@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wls:weblogic-web-app xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.4/weblogic-web-app.xsd">
+    <wls:weblogic-version>12.1.1</wls:weblogic-version>
+    <wls:context-root>OracleWeb</wls:context-root>
+    <wls:jsp-descriptor>
+        <wls:keepgenerated>true</wls:keepgenerated>
+        <wls:working-dir>/home/oracle12c/weblogic12c/ejb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/base_domain/work/OracleWeb</wls:working-dir>
+        <wls:debug>true</wls:debug>
+    </wls:jsp-descriptor>
+</wls:weblogic-web-app>

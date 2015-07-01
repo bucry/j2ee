@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+/home/oracle12c/weblogic12c/ejb/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+725040073.index
+1069911170.index
+3540838983.index
+2480695915.index
+582185699.index
