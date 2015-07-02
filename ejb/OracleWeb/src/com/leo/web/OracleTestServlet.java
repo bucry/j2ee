@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.leo.dao.ISessionStatus;
+import com.leo.dao.NoStatus;
+import com.leo.dao.ShopService;
 
 @WebServlet("/OracleTestServlet")
 public class OracleTestServlet extends HttpServlet {
@@ -17,6 +19,7 @@ public class OracleTestServlet extends HttpServlet {
        
 	@EJB(mappedName="SessionStatus")
 	private ISessionStatus iSessionStatus;
+	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);
 	}
